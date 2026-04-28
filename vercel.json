@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/((?!css|js|config|images|assets).*)", "destination": "/index.html" }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
